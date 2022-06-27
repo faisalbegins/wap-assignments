@@ -23,3 +23,20 @@ span {
 .column img {
   width:100%
 }
+
+a:link { 
+  text-decoration: none; 
+}
+
+a:hover { 
+  text-decoration: underline; 
+}
+
+span.dc {
+  float: left;
+  line-height: 85%;
+  width: .7em;
+  font-size: 400%;
+  font-family: georgia;
+}
+
