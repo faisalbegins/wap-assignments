@@ -1,0 +1,6 @@
+Things I have learned from this exercise are,
+	1. Before understanding CSS layout it is important to understand CSS box model
+	2. Only way to manage CSS layout is by using float.
+	3. Flots are very difficult to visualize
+	4. Only using float is not going to help, we also need to use Clear in Conjunction with Float
+	5. Divs only expand for non floats elements.

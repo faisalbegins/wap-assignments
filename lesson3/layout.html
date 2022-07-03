@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>CS472 Lesson 3</title>
+<style>
+
+#a, #b {
+  width: 100px;
+  height: 100px;
+  font: 30pt bold Helvetica, Arial, sans-serif;
+  line-height: 100px;
+  text-align: center;
+}
+#a { background-color: lightblue; }
+#b { background-color: pink; }
+#c { background-color: lightgray; }
+
+#a {
+  float: left;
+}
+#b {
+  float: right;
+  clear: left;
+}
+#c {
+  text-align: right;
+  width: 100px;
+  margin-left: auto;
+  margin-right: auto;
+}
+ 
+5.
+#a {
+  float: right;
+}
+#b {
+  float: left;
+}
+#c {
+  float: left;
+  text-align: center;
+  width: 100px;
+}
+6.
+#a {
+  float: right;
+}
+#b {
+  position: absolute;
+  top: 50px;
+  right: 100px;
+}
+#c {
+  clear: right;
+  text-align: center;
+  margin-right: 100px;
+}
+
+
+
+</style>
+</head>
+<body>
+
+<div id="a">A</div>
+<div id="b">B</div>
+<div id="c">
+  Lorem ipsum
+  dolor sit amet, ... 
+</div>
+
+</body>
+</html>
