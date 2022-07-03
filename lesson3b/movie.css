@@ -38,14 +38,32 @@ h1 {
 #right-panel {
 	float: right;
 	width: 26%;
-	background-color: lightgreen;
+	background-color: #A1B963;
 }
 
 #right-panel > div > img {
 	width: 100%;
 }
 
-div.review {
-	width: 40%;
+div.review-left {
+	width: 50%;
 	float: left;
 }
+
+div.review-right {
+	width: 50%;
+	float: right;
+}
+
+dl {
+	margin-left: 15px;
+}
+
+dd {
+	margin-bottom: 10px;
+}
+
+#w3 {
+	float: right;
+}
+
