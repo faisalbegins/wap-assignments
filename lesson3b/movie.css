@@ -31,7 +31,18 @@ h1 {
 
 #left-pannel {
 	float: left;
-	width: 80%;
+	width: 74%;
+	clear: right;
+}
+
+#right-panel {
+	float: right;
+	width: 26%;
+	background-color: lightgreen;
+}
+
+#right-panel > div > img {
+	width: 100%;
 }
 
 div.review {
