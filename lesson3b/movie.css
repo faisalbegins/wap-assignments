@@ -1,0 +1,40 @@
+body {
+	background: url("background.png");
+}
+
+#banner {
+	background: url("bannerbg.png");
+	text-align: center;
+}
+
+h1 {
+	text-align: center;
+}
+
+#container {
+	border: 3px solid green;
+	border-radius: 15px;
+	margin-left: 10%;
+	margin-right: 10%;
+	overflow: auto;
+	height: auto !important;
+}
+
+#rotten {
+	background: url("bannerbg.png");
+}
+
+#rotten span {
+	font-size: 40px;
+	color: red;
+}
+
+#left-pannel {
+	float: left;
+	width: 80%;
+}
+
+div.review {
+	width: 40%;
+	float: left;
+}
